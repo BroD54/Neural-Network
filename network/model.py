@@ -62,11 +62,6 @@ class NeuralNetwork:
         Returns:
             tuple: Gradients of W1, b1, W2, b2.
         """
-        # Compute dZ2
-        # Compute dW2, db2
-        # Compute dA1
-        # Compute dZ1
-        # Compute dW1, db1
 
         m = y.shape[1]
         dZ2 = self.y_hat - y
